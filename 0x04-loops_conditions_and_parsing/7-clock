@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-h_counter=0
+h_counter=1
 m_counter=1
 while [ "$h_counter" -le 12 ]; do
+	echo "Hour: $h_counter"
 	while [ "$m_counter" -le 59 ]; do
 		echo "$m_counter"
 		((m_counter++))
 	done
 	((m_counter=1))
-	echo "Hour: $h_counter"
 	((h_counter++))
 done
