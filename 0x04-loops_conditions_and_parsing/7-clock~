@@ -2,9 +2,8 @@
 # This script is displaying "Best School" 10 times
 h_counter=1
 m_counter=1
-s_counter=1
 while [ "$h_counter" -le 12 ]; do
-	while [ "$m_counter" -le 60 ]; do
+	while [ "$m_counter" -le 59 ]; do
 		echo "$m_counter"
 		((m_counter++))
 	done
