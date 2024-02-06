@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script displays 0 to 12 hours of a clock and 1 to 59 minutes for each
 h_counter=0
 m_counter=1
 while [ "$h_counter" -le 12 ]; do
